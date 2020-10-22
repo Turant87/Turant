@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Первое ДЗ</title>  <!-- Название сайта -->
+		<style type="text/css"> ul {background-color: rgba(200, 200, 200, 0.5); } </style>
+		<link rel="stylesheet" type="text/css" href="css/style.css">  <!-- Link - как и ссылка на изображение, только на CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
+	</head>
+	<body>
+		<h1>Моя первая страница</h1> <!-- Заголовок первого уровня -->
+		<header><a class="mars" href="pages/Second.html"> Марс </a>  <!-- header (шапка сайта)-->
+			<br>
+			<a href="pages/contacts.html"> Контакты </a>
+			<a href="pages/external_resources.html">Внешние ресурсы</a>
+		</header>
+		<main> <!-- main (Главное на странице, на каждой свой мэйн) -->
+			<p><strong>Привет</strong> это моя <em>первая</em> HTML страница </p> <!-- Strong (Выдиление жирным), em - (курсив) -->
+		<h2>My 1st page</h2> <!-- Заголовок 2го уровня -->
+			<p>Hi, this is my first HTML page (<a href="pages/Second.html"> This link will be next page </a>) </p> <!-- a href ссылка -->
+			<p> Я <span><em>хрен его знает</em></span> <del><strong>не знаю</strong> </del> что еще тут написать </p> <!-- del (зачеркивание), span (надпись вместо зачеркнутого) -->
+			<p> Три, <del> два </del>, один</p>
+			<p>Теорему Пифагора можно выразить с помощью уравнения: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>.</p>  <!-- sup (верхний регистр) -->
+			<hr> <!-- hr — создаёт черту, которая отделяет содержимое на уровне параграфов. -->
+			<p>Любимая молекула разработчиков C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, также известная как "кофеин".</p> <!-- sub (нижний регистр) -->
+		<ul> <!-- ul (неупорядоченный список, ставятся точки + отступ = Tab) -->
+    		<li>ul (неупорядоченный список, ставятся точки + отступ = Tab) <q>q (кавычки цитирования)</q>. <!-- q (кавычки цитирования) -->
+    			<li>Для примера второй пункт в <q>списке</q></li>
+    		</li> <!-- Li (Пункт в списке) -->
+		</ul>
+		<blockquote>blockquote (Цитата с отступом по левому крвю)</blockquote> <!-- <blockquote> (Цитата с отступом по левому крвю) -->
+			<h3 class="title">Список покупок</h3>   <!-- class - селектор для создания правил в CSS --> 
+			<ol> <!-- ol (Упорядоченный список, нумеруется числами) -->
+				<li>Хлеб</li>
+				<li>Молоко</li>
+			</ol>
+			<p><pre> pre показывает       отформатированное 	содержимое с любым количеством пробелов</pre></p> <br>  <!-- pre (показывает отформатированное содержимое с любым количеством пробелов) -->
+
+			<h3><strong>Скриншот</strong></h4>
+			<img src="images/screen.png" alt="Скриншот" height="300" width="800"> <br>
+</main>
+
+<hr>
+
+<footer> <!-- footer (Подвал) -->
+	<span>&copy;&nbsp;Turant</span>
+		<address>
+    125430, Москва,<br> <!-- br (Перенос строки) -->
+    Смольная 51-3-215<br>
+    +7(905)504-93-69<br>
+</address>
+</footer>
+
+	</body>
+</html>
