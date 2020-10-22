@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Контакты
+	</title>
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+<body class="back">
+	<h1>Контакты</h1>
+	<header><a href="../untitled.html"> Главная </a>  <!-- header (шапка сайта)-->
+			<br>
+			<a href="Second.html"> Марс </a>
+			<br>
+			<a href="https://lms.skillfactory.ru/courses/course-v1:Skillfactory+PWS-v.2.0+7AUG2020/courseware/4d5d72e4e0454c7496bb97add3f0e852/b4d5bf8340034eff89a8eeba905a0411/10?activate_block_id=block-v1%3ASkillfactory%2BPWS-v.2.0%2B7AUG2020%2Btype%40vertical%2Bblock%40ffe3ebf2632d4ff4b18fc95d0ca94ddb">Закрепление результатов</a>
+		</header><br><br>
+		<main>
+			<p>Место для вашей рекламы =)</p>
+			<h2>Селектор идентификатора</h2>
+			<p>Существуют другие <span class="selectors">Selector</span>, которые используются в особенных случаях. <span class="selectors">Селектор</span> идентификатора (id) используют в интерактивных формах и для JavaScript. Есть <span class="selectors">селектор</span> всех элементов на странице (*), его стоит использовать в редких случаях, например, изменение значения свойства box-sizing для удобства задания ширины всех элементов.</p>
+			<p>Можно составлять разные <span class="selectors">селекторы</span>, указывая их отношения. Самое главное: браузер читает CSS справа налево. Рассмотрим отношение потомка:</p> <!-- span + class - спан обертка части текста, класс назначается для применения стиля в CSS -->
+			<ul>
+				<li>селектор селектор — все потомки, пишется через пробел, header a выберет все ссылки (a) внутри шапки (header).</li>
+				<li>селектор &#62; селектор — непосредственные потомки на один уровень вложенности, пишется через правую угловую скобку с пробелами вокруг знака. header &#62; a — сработает так же. Использовать main &#62; strong не получится, потому что strong еще вложен в p.</li>
+				<li>селектор + селектор — первый сосед. Выберет первый следующий элемент на том же уровне. h2 + p выберет первые параграфы, идущие после заголовков второго уровня.</li>
+			</ul>
+			<br>
+			<h2>Таблицы</h2>
+			<table class="items">
+				<thead>
+					<tr>
+						<td>Название элимента</td>
+						<td>Описание</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>table</td>
+						<td>Таблица</td>
+					</tr>
+					<tr>
+						<td>tr</td>
+						<td>Ряд</td>
+					</tr>
+					<tr>
+						<td>td</td>
+						<td>Ячейка</td>
+					</tr>
+					<tr>
+						<td>th</td>
+						<td>Заголовочная ячейка</td>
+					</tr>
+					<tr>
+						<td>thead</td>
+						<td>Шапка таблицы</td>
+					</tr>
+					<tr>
+						<td>tbody</td>
+						<td>Тело таблицы</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<p><pre>table
+				thead
+					tr
+						td /td
+					/tr
+				/thead
+				tbody
+					tr
+						td /td
+					/tr
+				/tbody
+			/table</pre></p>
+			<br>
+			<br>
+
+
+		</main>
+
+		<hr>
+
+	<footer> 
+		<span>&copy;&nbsp;Turant</span>
+		<address>
+    125430, Москва,<br> <!-- br (Перенос строки) -->
+    Смольная 51-3-215<br>
+    +7(905)504-93-69<br>
+</address>
+	</footer>
+
+</body>
+</html>

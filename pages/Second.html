@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Марс</title>
+	<style type="text/css"> h2 {color: rgb(200, 140, 30); font-size: 40;} </style>  <!-- При использовании style в head, данный стиль применяется ко всем атрибутам по коду -->
+	<style type="text/css"> p {background-color: gray;} </style>  <!-- background-color - цвет фона, font-weight - вес шрифта (жирный) -->
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+<body>
+	<h1 style="font-size: 50px; color: red;"> Марс</h1>  <!-- Использование стиля, применимое к элименту -->
+	<div class="head"><header><a href="../untitled.html">Главная </a>  <!-- header (шапка сайта)-->
+			<a href="contacts.html"> Контакты </a>
+		</header></div>
+		<main> <!-- main (Главное на странице, на каждой свой мэйн) -->
+		<div class="container">
+	<div class="pic"><img src="../images/Mars.jpg" height="200" width="350"></div>
+	<div class="pic"><img src="../images/Mars1.jpg" height="200" width="350"></div>
+	<div class="pic"><img src="../images/Mars2.jpg" height="200" width="350"></div>
+	<div class="pic"><img src="../images/Mars3.jpg" height="200" width="350"></div>
+</div>
+	<br><br>
+  	<form action="https:/google.com/search" method="GET">  <!-- Лейбл связан и полем -->
+  		<label>Поиск в GOOGLE:
+  	<input class="button-text" type="search" name="q" placeholder="«Введите поисковый запрос»"></label>
+  	<button class="button" type="submit">Отправить</button>
+  </form>
+
+  <form action="https:/google.com/search" method="GET">    <!-- Лейбл не связан с полем -->
+  		<label for="q">Поиск в GOOGLE:</label>
+  	<input class="button-text" type="search" name="q" placeholder="«Введите поисковый запрос»">
+  	<button class="button" type="submit">Отправить</button>
+  </form>
+<br>
+
+  <form class="form" action="" method="GET">
+       <fieldset class="button-text">
+               <legend>Опции</legend>
+               <label for="option-1">Опция 1: </label>
+               <input type="checkbox" id="option-1" name="option" value="option-1">
+               <label for="option-2">Опция 2: </label>
+               <input type="checkbox" id="option-2" name="option" value="option-2">
+               <label for="option-3">Опция 3: </label>
+               <input type="checkbox" id="option-3" name="option" value="option-3">
+       </fieldset>
+       <fieldset class="button-text">
+               <legend>Варианты</legend>
+               <label for="variant-1">Вариант 1: </label>
+               <input type="radio" id="variant-1" name="variant" value="variant-1">
+               <label for="variant-2">Вариант 2: </label>
+               <input type="radio" id="variant-2" name="variant" value="variant-2">
+       </fieldset>
+       <button type="submit">Показать</button>
+</form>
+<br>
+
+<form class="form"action=""method="GET"><fieldset><legend>Материал</legend>
+        	<input type="radio" name="material" value="metal" id="metal">
+        	<label for="metal">Металл </label>
+        	<input type="radio" name="material" value="plastic" id="plastic">
+        	<label for="plastic">Пластик </label>
+    	</fieldset>
+    	<fieldset>
+        	<legend>Дополнительные опции</legend>
+        	<input type="checkbox" name="option" value="trunk" id="trunk">
+        	<label for="trunk">Багажник </label>
+        	<input type="checkbox" name="option" value="pump" id="pump">
+        	<label for="pump">Насос </label>
+        	<input type="checkbox" name="option" value="chain" id="chain">
+        	<label for="chain">Запасная цепь </label>
+    	</fieldset>
+    	<button type="submit">Найти</button>
+	</form>
+<br>
+
+<button class="popup-button">Войти</button>
+            	<div class="popup"></div>
+
+
+<br>
+
+	</div>
+	<p><strong>Марс</strong> — четвёртая по удалённости от Солнца и седьмая по размерам планета Солнечной системы; масса планеты составляет 10,7 % массы Земли.Перейти к разделу «#Основные сведения» Названа в честь Марса — древнеримского бога войны, соответствующего древнегреческому Аресу.Перейти к разделу «#В античной мифологии» Иногда Марс называют «красной планетой» из-за красноватого оттенка поверхности, придаваемого ей минералом маггемитом — γ-оксидом железа(III)</p>
+	<h2>Сила тяжести</h2>
+	<p> Сила тяжести у поверхности Марса составляет 39,4 % от земной (в 2,5 раза слабее). Для долговременного пребывания человека на Марсе рассматриваются варианты создания искусственной силы тяжести с помощью утяжеляющих костюмов или центрифуг, обеспечивающих схожую с земной нагрузку на скелет</p>
+	<h2>Марсианские сутки</h2>
+	<p>Период вращения планеты — 24 часа 37 минут 22,7 секунды (относительно звёзд), длина средних марсианских солнечных суток составляет 24 часа 39 минут 35,24409 секунды, всего на 2,7 % длиннее земных суток. Для удобства марсианские сутки именуют «солами». Марсианский год равен 668,59 сола, что составляет 686,98 земных суток</p>
+	<hr>
+	<footer>
+		<span>&copy;&nbsp;Turant</span>
+		<address>
+    125430, Москва,<br> <!-- br (Перенос строки) -->
+    Смольная 51-3-215<br>
+    +7(905)504-93-69<br>
+</address>
+	</footer>
+
+
+	<!-- Срабатывание скрипта по нажатию кнопки -->
+
+	<!-- <script>
+    	let button = document.querySelector('.popup-button');
+    	button.addEventListener('click', showPopup);
+   	 
+    	function showPopup() {
+        	document.querySelector('.popup').classList.toggle('visible');
+        	console.log('showPopup работает');
+    	}
+	</script> -->
+
+
+	<!-- Срабатывание скрипта по наведению курсора на кнопку -->
+
+
+	<script>let button = document.querySelector('.popup-button');
+
+    	button.addEventListener('mouseover', showPopup);
+
+    	function showPopup() {
+        	document.querySelector('.popup').classList.add('visible');
+    	}
+
+    	button.addEventListener('mouseout', hidePopup);
+
+    	function hidePopup() {
+        	document.querySelector('.popup').classList.remove('visible');
+    	}
+	</script>
+
+
+</body>
+</html>

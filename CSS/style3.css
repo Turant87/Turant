@@ -1,0 +1,26 @@
+.box{
+	display: inline-block;
+	width: 600px;
+	background-color: #CEEBFC;
+	line-height: 20px;
+	;
+}
+.item{
+	border: 2px solid black
+}
+.item-name{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;  /* ..по вертикали */
+	width: 300px;
+	padding: 10px;
+
+}
+.item-link{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 150px;
+	padding: 10px;
+
+}

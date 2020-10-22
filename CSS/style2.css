@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'Sansita Swashed';
+	src: url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+	font-family: 'Architects Daughter';
+	src: url('../fonts/ArchitectsDaughter-Regular.ttf'); 
+}
+
+a:hover { /* hover - наведение курсора */
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 25px;
+}
+h2 + p {   /* h2 + p - первый параграф после заголовка будет применять стиль  (логика выбрать первый параграф идущий после заголовка) */
+
+	color: white;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+ul > li {   /* ul > li - все следующие li после ul будут применять стиль */
+	font-size: 25px;
+}
+.items td,
+.items th {
+	width: 250px;
+	height: 35px;
+	border: 1px solid black;
+}
+.items {
+	border-collapse: collapse;
+}
+.items thead {
+	font-weight: bold;
+	color: red;
+}
+.items tbody tr:nth-of-type(2n+1) {
+	background-color: rgb(146, 252, 194);
+}
+.selectors {
+	
+	font-family: "Sansita Swashed", "Architects Daughter", cursive;
+}
+
+.container{
+	display:inline-block;
+	width: 900px;
+	position: top;
+}
+.head {
+	display: inline;
+	width: 300px;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: inline;
+	font-weight: 300px;
+}
+.pic{
+	display: inline-block;
+	margin: 20px;
+}
+
+.back{
+	color: white;
+	background-size: cover;
+	background-image: url('../images/back.jpg');
+}
+
+.form{
+	display: flex;
+	width: 900px;
+
+}
+
+.button{
+	width: 100px;
+	height: 60px;
+	color: red;
+}
+
+.button-text{
+	width: 300px;
+	height: 60px;
+	background-color: #78CFE9;
+	text-decoration-color: red;
+}
+
+.popup {
+	width: 500px;
+	height: 500px;
+	background-color: rgb(231, 96, 18);
+	display: none;
+}
+
+.visible {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+

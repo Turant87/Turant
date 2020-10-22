@@ -1,0 +1,22 @@
+header{
+	display: fixed;
+
+}
+p{
+	background-color: rgba(200, 200, 200, 0.5);
+	color: rgb(0, 0, 0);
+}
+h1,
+h2{
+	background-color: rgba(0, 0, 0, 0.5);
+	font-weight: bold;
+	color: white;
+}
+.title {
+	color: red;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mars::after{
+	content: '\1FA90';
+}
